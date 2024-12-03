@@ -76,8 +76,7 @@ button .btn{
         text-align: center;
         padding: 10px;
         font-size: 10px;
-        display: none;
-        animation: btn 1s ease-in 2;
+        animation: btn 1s ease-in 5;
     }
 
     @keyframes btn {
@@ -98,7 +97,7 @@ button .btn{
     }
     
     .product:hover button{
-      background-color:brown;
+      background-color:grey;
       scale: 0.8;
       display: block;
 
