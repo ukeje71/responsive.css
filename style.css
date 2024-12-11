@@ -34,8 +34,8 @@ body{
     border-radius: 6px;
     background-color: #fff;
     padding: 10px;
-    gap: 10rem;
-    border-bottom:  4px  solid grey;
+    /* gap: 10rem; */
+    /* border-bottom:  4px  solid grey; */
     animation: product 3s ease-in infinite;
 }
 .product-button-container{
@@ -64,7 +64,7 @@ p{
         width: 3rem;
         font-size: small;
         border-radius: 5px;
-        cursor: grab;
+        /* cursor: grab; */
         background-color: #2c3df6;
         font-size: 10px;
        width: 40%;
@@ -98,14 +98,22 @@ p{
       }
       .product:hover {
         scale :1.1;
-       border-color: #2c3df6;
+        border-color:3px solid #2c3df6;
+       border-left: 2px solid #2c3df6;
+       border-right:  2px solid #2c3df6;
+       border-top:2px solid #2c3df6;
+       border-bottom:2px solid #2c3df6;
       }
     footer{
      background-color: #fff;
      justify-items:center;
-     padding: 1px;
+     padding: 10px;
      width: 100%;
-     height: 5rem;
+     height: 6rem;
+     display: flex;
+      gap: 1rem;
+      justify-content: space-between;
+     
     }
     @keyframes btn {
       from{background-color: #2c3df6;}

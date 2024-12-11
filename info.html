@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta http-equiv="refresh" content="30;https:127.0.0.1:5501/index.html"> -->
+    <!-- <meta http-equiv="refresh" content="30;https*127.0.0.1*5501/index.html"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>purchase page</title>
-    <link rel="structure" href="index.html">
-    <link rel="stylesheet" href="info.css">
+    <link rel="structure" href="./index.html">
+    <link rel="stylesheet" href="./info.css">
 </head>
  <body  oncontextmenu="return false">
    <!--header-->
@@ -17,20 +17,20 @@
    <main>
      <form method="get" action="/success.html">
       <div class="form 1">
-       <p> Fullname:</p>
+       <p> Fullname*</p>
         <input type="text" name="F name"><br>
       </div>
       <div class="form 2">
-       <p> Email :</p>
+       <p> Email *</p>
         <input type="email" name="email" placeholder="someone@example.com" required><br>
       </div>
       <div class="form 3">
-       <p> Contact:</p>
+       <p> Contact*</p>
         <input type="text" name="contact" value="+234">
       </div>
         <div class="card">
          <h2>Card Detail</h2>
-         <p>Choose Your Bank :</p>
+         <p>Choose Your Bank *</p>
          <select name="banks" placeholder="banks">
            <option value="bank1">Access Bank</options>
            <option value="bank2">HDFC Bank</options>
@@ -43,13 +43,15 @@
          </select>
          <p>Card valid date</p>
           <input type="date" name="expiry">
-          <p>Card Number :</p>
+          <p>Card Number *</p>
           <input type="text" name="for card" placeholder="00000/00000/00000/00000">
           <div class="delivery">
             <h2>Home Delivery</h2>
-           <p>Resident :</p> 
-            <input type="text" name="Home" placeholder="Aba,Abia State,Nigeria">
-            <p>Landmark  :</p>
+           <p>Home Resident *</p> 
+            <input type="text" name="Home" placeholder="123 Azikiwe">
+           <p>Time*</p>
+           <input type="time" name="For time"
+            <p>Landmark  *</p>
             <input type="text" name="Home" placeholder="Landmark"><br>
              <input type="submit" name="submit" action ="/success.html">
           </div>
