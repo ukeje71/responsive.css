@@ -60,11 +60,12 @@ p{
         /* margin: 10px; */
     }
     button{
-        width: 3rem;
-        height: 2rem;
-        border-radius: 5px;
-        padding-top: 6px;
-        background-color: #2c3df6;
+        width: 5rem;
+        height: 2.5rem;
+        border: none;
+        border-radius: 6px;
+        background-color:red;
+        text-align: center;
         font-size: 10px;
         animation: btn 6s ease-in infinite;
     }
@@ -93,12 +94,12 @@ p{
       scale: 1.1;
       } 
       .product:hover {
-        scale :1.1;
-        border-color:3px solid #2c3df6;
-       border-left: 2px solid #2c3df6;
-       border-right:  2px solid #2c3df6;
-       border-top:2px solid #2c3df6;
-       border-bottom:2px solid #2c3df6;
+        scale :1.05;
+        border-color:3px solid red;
+       border-left: 2px solid red;
+       border-right:  2px solid red;
+       border-top:2px solid red;
+       border-bottom:2px solid red;
       }
     footer{
      background-color: #fff;
