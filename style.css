@@ -62,7 +62,7 @@ p{
     }
     button{
         width: 3rem;
-        font-size: small;
+        /* font-size: small; */
         border-radius: 5px;
         /* cursor: grab; */
         background-color: #2c3df6;
