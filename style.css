@@ -34,6 +34,7 @@ body{
     background-color: #fff;
     padding: 10px;
     /* gap: 10rem; */
+    width: 16rem;
     border-bottom:  4px  solid grey;
     animation: product 3s ease-in infinite;
 }
@@ -91,7 +92,7 @@ p{
     } */
     
 .product:hover button{ 
-      scale: 1.1;
+      scale: 1.2;
       } 
       .product:hover {
         scale :1.05;
